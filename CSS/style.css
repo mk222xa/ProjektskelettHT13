@@ -1,0 +1,9 @@
+* 
+{
+    /*Altering the box model so borders and padding doesn´t break the layout*/
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+}
+body 
+{
+    margin: 0;
+}
