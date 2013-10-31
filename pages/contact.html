@@ -25,14 +25,53 @@
                 </ul>
             </nav>
             <section id="maincontent">
-                <h1 id="pagetitle">News</h1>                
-                <article class="news">
-                    <h2 class="title">Headline for article</h2>
-                    <p class="newstext">Post containing news about the band</p>
-                </article>
-                <h2 class="title">Another headline for another article</h2>
-                <p class="newstext">Another post containing some other info</p>            
+                <h1 id="pagetitle">Kontakta oss</h1>  
+                <div id="hcard-Mattias-Karlsson" class="vcard">
+                    <a class="url fn" href="http://www.cmk-solutions.com">Mattias Karlsson</a>
+                    <div class="org">CMK-Solutions</div>
+                    <a class="email" href="mailto:mattias@cmk-solutions.com">mattias@cmk-solutions.com</a>
+                    <div class="adr">
+                        <span class="locality">Uddevalla</span>, 
+                        <span class="postalcode">45172</span>
+                        <span class="countryname">Sweden</span>
+                    </div>
+                    <div class="tel">+46704938890</div>
+                </div>
+                <h2>Frågor och synpunkter</h2>
+                
+                <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"><!--PHP script not working at the moment -->
+                    <fieldset>
+                        <legend>Fråga</legend>
+                        <label for="subject">Ärendetyp:</label>
+                        <select id="subject" name="subject">
+                            <option value="question">Fråga</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Övrigt</option>
+                        </select><br>
+                        <label for="headline">Rubrik:</label>
+                        <input id="headline" name="headline" type="text"><br>
+                        <label for="question1">Meddelande:</label>
+                        <textarea id="question1" name="question1"></textarea>                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>Kontaktinfo</legend>
+                        <label for="youremail">Din email: </label>
+                        <input id="youremail" name="youremail" type="email"><br>
+                        <label for="yourphone">Telefon: </label>
+                        <input id="yourphone" name="yourphone" type="tel"><br>                    
+                    </fieldset>
+                    <fieldset>
+                        <legend>Kontaktalternativ</legend>
+                        <input id="byemail" name="byemail" type="checkbox">
+                        <label for="byemail">Kontakta mig via email</label><br>
+                        <input id="byphone" name="byphone" type="checkbox">
+                        <label for="byphone">Kontakta mig via telefon</label>
+                    </fieldset>
+                    <input type="submit" value="Skicka">
+                </form>
             </section>          
-        </div>    
+            
+            
+        </div>    <!--Close .container-->  
     </body>
 </html>
