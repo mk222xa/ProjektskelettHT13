@@ -1,9 +1,130 @@
-* 
+/*
+Colors
+
+
+*/
+
 {
     /*Altering the box model so borders and padding doesn´t break the layout*/
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
 }
 body 
 {
-    margin: 0;
+    background-color:#000;
+    width:auto;
+}
+p
+{
+    font-size:medium;
+}
+header h1
+{
+    display:none;
+}
+.maincontent
+{
+    clear:both;
+    display:block;
+    margin:auto;
+}
+.container  
+{
+    width:80%;
+    background: url("pics/backgroundMain.png");
+    background-size: auto;
+    display:block;
+    margin:auto;
+    border:2px #000 solid;    
+    clear:both;
+    min-height:1000px;
+}
+.container h1,h2,h3
+{
+    text-align:center;    
+}
+
+.navigation, .navigation list
+{
+    background-color: #fff;
+    border: 0;
+    display:block;
+}
+
+.navigation 
+{ 
+    border-top: 5px solid #000; 
+    margin:0;
+}
+
+.navigation a:link
+{ 
+    border-radius: 0 0 8px 8px; 
+    padding:0px 15px;
+}
+
+.navigation ul 
+{
+    margin:auto;
+    
+    padding: 0;
+    display:block;
+    text-align: center;
+}
+
+.navigation li
+{
+    text-transform:uppercase;
+    display:block;
+    margin:auto;
+}
+
+.navigation a
+{
+    float: left;
+    font-weight: bold;
+    color: #000;
+    margin: 0 10px 0 0; /* Margin between each menu item */
+    background-color: #eee; /* Default tab color */
+}
+
+.navigation a:hover
+{
+    background-color: #000; 
+    color: #fff;
+}
+
+
+header
+{   
+    width:100%;
+    display:block;
+    height:auto;
+    background-color:#fff;
+    margin:0;
+}
+/*Using box-shadow for a 3-d effect*/
+header img
+{       
+    display:block;
+    height:auto;
+    max-width:100%;
+    align-self:center;
+    clear:both;   
+    margin-left:auto;
+    margin-right: auto;
+    overflow:auto;
+}
+
+#hcard
+{
+    float:right;
+    border: 2px solid black;
+    background-color:white;
+    font-family:Arial serif medium;
+    padding: 3px 3px 3px 3px;
+    border-style:ridge;
+    align-self:center;
+    box-shadow: 10px 10px 5px #888888;
+    max-width:25%;
+    
 }

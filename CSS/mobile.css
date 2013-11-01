@@ -1,9 +1,98 @@
-* 
 {
     /*Altering the box model so borders and padding doesn´t break the layout*/
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
 }
 body 
 {
+    background-color:#000;
+    width:auto;
+}
+p
+{
+    font-size:medium;
+}
+.container  
+{
+    width:100%;
+    background: url("pics/backgroundMain.png");
+    background-size: auto;
+    display:block;
+    margin:auto;
+    border:2px #000 solid;    
+    clear:both;
+}
+.container h1,h2,h3
+{
+    text-align:center;    
+}
+.navigation ul
+{
+    overflow: auto;
+    padding: 4px 10px 0;
     margin: 0;
+    top: 1px;
+    position: relative;
+}
+.navigation li
+{
+    list-style: none;
+    text-transform: capitalize;
+    float: left;
+    border-bottom: 1px solid #ffffff;
+}
+.navigation active
+{
+    border-color: #eae7d2;
+}
+.navigation a
+{
+    display: inline-block;
+    padding: 8px 20px 7px;
+    background: #797066;
+    color: #eae7d2;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: .8em;
+    border-right: 1px solid #51473d;
+}
+.active a
+{
+    background: #eae7d2;
+    color: #797066;
+    margin-top: 1px;
+    padding-bottom: 6px;
+}
+
+
+header
+{   
+    width:100%;
+    display:block;
+    height:auto;
+}
+/*Using box-shadow for a 3-d effect*/
+header img
+{       
+    display:block;
+    height:auto;
+    max-width:100%;
+    align-self:center;
+    clear:both;   
+    margin-left:auto;
+    margin-right: auto;
+    overflow:auto;
+}
+
+#hcard
+{
+    float:right;
+    border: 2px solid black;
+    background-color:white;
+    font-family:Arial serif medium;
+    padding: 3px 3px 3px 3px;
+    border-style:ridge;
+    align-self:center;
+    box-shadow: 10px 10px 5px #888888;
+    max-width:25%;
+    
 }
