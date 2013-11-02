@@ -21,88 +21,6 @@ header h1
 {
     display:none;
 }
-.maincontent
-{
-    clear:both;
-    display:block;
-    margin:auto;
-}
-.container  
-{
-    width:80%;
-    background: url("pics/backgroundMain.png");
-    background-size: auto;
-    display:block;
-    margin:auto;
-    border:2px #000 solid;    
-    clear:both;
-    min-height:1000px;
-}
-.container h1,h2,h3
-{
-    text-align:center;    
-}
-
-.navigation, .navigation list
-{
-    background-color: #fff;
-    border: 0;
-    display:block;
-}
-
-.navigation 
-{ 
-    border-top: 5px solid #000; 
-    margin:0;
-}
-
-.navigation a:link
-{ 
-    border-radius: 0 0 8px 8px; 
-    padding:0px 15px;
-}
-
-.navigation ul 
-{
-    margin:auto;
-    
-    padding: 0;
-    display:block;
-    text-align: center;
-}
-
-.navigation li
-{
-    text-transform:uppercase;
-    display:block;
-    margin:auto;
-}
-
-.navigation a
-{
-    float: left;
-    font-weight: bold;
-    color: #000;
-    margin: 0 10px 0 0; /* Margin between each menu item */
-    background-color: #eee; /* Default tab color */
-}
-
-.navigation a:hover
-{
-    background-color: #000; 
-    color: #fff;
-}
-
-
-header
-{   
-    width:100%;
-    display:block;
-    height:auto;
-    background-color:#fff;
-    margin:0;
-}
-/*Using box-shadow for a 3-d effect*/
 header img
 {       
     display:block;
@@ -115,6 +33,213 @@ header img
     overflow:auto;
 }
 
+.maincontent
+{
+    clear:both;
+    display:block;
+    margin:auto;    
+}
+
+.pagetitle /*Page headline*/
+{
+    display:block;
+    clear:both;
+    margin:auto;
+}
+.title /*Headlines*/
+{
+    display:block;
+    clear:both;
+    margin:auto;
+}
+.container  
+{
+    width:75%;
+    background: url("pics/backgroundMain.png");
+    background-size: auto;
+    display:block;
+    margin:auto;
+    border:2px #000 solid;    
+    clear:both;
+    min-height:800px;
+}
+.container h1,h2,h3
+{
+    text-align:center;    
+}
+
+/*Menu*/
+nav
+{
+    margin-bottom:40px;
+}
+.navigation, .navigation li
+{
+    background-color: #fff;
+    border: 0;
+    display:block;
+}
+
+.navigation 
+{ 
+    border-top: 5px solid #000; 
+    margin:auto;    
+}
+
+.navigation a:link
+{ 
+    border-radius: 0 0 9px 9px; 
+    padding:0px 15px;
+}
+
+.navigation ul 
+{
+    margin:auto;    
+    padding: 0;
+    display:block; 
+    text-align:center;
+}
+
+.navigation li
+{
+    text-transform:uppercase; /* Always uppercase on links*/
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+
+.navigation a
+{
+    float: left;
+    font-weight: bold;
+    color: #000;
+    margin: 0 10px 0 0; /* Margin between each menu item */    
+}
+
+.navigation a:hover
+{
+    background-color: #000; 
+    color: #fff;   
+}
+.active a
+{
+    color:#fff;
+    background-color:#000;
+}
+
+
+header
+{   
+    width:100%;
+    display:block;
+    height:auto;
+    background-color:#fff;
+    margin:0;
+}
+
+
+article
+{
+    margin:10px;
+    font-family:sans-serif; font-size:medium;     
+}
+/*Form*/
+form
+{
+    margin-top:25px;
+}
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+.contact_form li{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+.contact_form li:first-child
+{
+    border-top:1px solid #000;
+}
+.contact_form li:last-child {
+    border-bottom:1px solid #000;
+}
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.contact_form input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+
+.contact_form input, .contact_form textarea {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right:70px;
+}
+/* Button Style */
+button.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+/*Form end*/
+
+/*Using box-shadow for a 3-d effect*/
+
 #hcard
 {
     float:right;
@@ -123,8 +248,26 @@ header img
     font-family:Arial serif medium;
     padding: 3px 3px 3px 3px;
     border-style:ridge;
-    align-self:center;
+    align-self:baseline;
     box-shadow: 10px 10px 5px #888888;
-    max-width:25%;
+    margin-right:25px;
     
+}
+footer
+{
+    position:relative;
+    border:5px solid #000;
+    align-self:baseline;
+    display:block;
+    clear:both;
+    margin:20px 0 0 0px;
+    background: url("pics/backgroundMain.png");
+    background-size: auto;
+}
+footer:before 
+{    
+    margin:20px;
+    content: "© CMK-Solutions 2013";
+    visibility: visible;
+    float:left;
 }
