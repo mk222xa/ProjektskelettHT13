@@ -237,7 +237,7 @@ p
 {    
     width:1000px;
     min-height:1000px;
-    background: url("pics/backgroundMain.png");
+    background-color:#fff;
     background-size: auto;
     display:block;
     margin:auto;
