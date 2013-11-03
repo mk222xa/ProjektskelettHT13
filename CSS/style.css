@@ -44,23 +44,18 @@ header img
 }
 /*Menu*/
 nav {
-    height: 40px;
-    width: 100%;    
+    height: 40px;      
     font-size: medium;
     font-family: 'PT Sans', Arial, sans-serif;
-    font-weight: bold;
-    position: relative;
-    border-bottom: 2px solid #000;    
+    font-weight: bold;       
 }
 nav ul {
     padding: 0;
-    margin: 0 auto;
-    width: 600px;
-    height: 40px;
+    margin:auto;      
 }
 nav li {
-    display: inline;
-    float: left;
+    display:inline-block;
+    float:none;
 }
 .navbar:after {
     clear: both;
@@ -74,14 +69,14 @@ nav a {
     line-height: 40px;
     background-color:#000;  
     text-align: left;
-    width: 100%;
+    width: 99%;
     text-indent: 25px;
 }
 nav { 
     height: auto;
 }
 nav ul {
-    width: 100%;
+    width: 99%;
     display: block;
     height: auto;
 }
@@ -102,7 +97,10 @@ nav li a {
     margin:auto;  
     min-height:800px;
 }
-
+.maincontent h2
+{
+    margin-top:25px;
+}
 .pagetitle /*Page headline*/
 {
     display:block;
@@ -140,6 +138,10 @@ footer:before
     visibility: visible;
     float:left;
 }
+.gallery
+{
+    margin:25px;
+}
 .warning
 {
     text-indent:25px;    
@@ -160,8 +162,7 @@ form
     overflow:none;
 }
 .contact_form ul 
-{
-    width:750px;
+{    
     list-style-type:none;
     list-style-position:outside;
     margin:0px;
@@ -222,8 +223,6 @@ button.submit {
 {
     list-style-type:none;
 }
-
-
 
 }
 
