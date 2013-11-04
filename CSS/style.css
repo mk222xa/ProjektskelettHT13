@@ -1,5 +1,9 @@
 /*Mobile first and adding styling for big screens further down*/
 @media screen and (max-width: 480px){
+    p, h1, h2, h3
+    {
+        font-family: 'Roboto', sans-serif, medium;
+    }
     .container  
     {    
         width:100%;
@@ -14,7 +18,8 @@
     }
 .container h1,h2,h3
 {
-    text-align:center;    
+    text-align:center;
+    font-family: 'Roboto', sans-serif, medium;
 }
 
 header h1
@@ -36,7 +41,7 @@ header img
 nav {
     height: 40px;      
     font-size: medium;
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif, medium;
     font-weight: bold;       
 }
 nav ul {
@@ -128,9 +133,14 @@ footer:before
     visibility: visible;
     float:left;
 }
-.gallery
+.gallery a
 {
-    margin:25px;
+    margin:10px;
+}
+.gallery p
+{
+    margin: 25px;
+    font-family: 'Roboto', sans-serif, medium;
 }
 .warning
 {
@@ -141,7 +151,7 @@ footer:before
 article
 {
     margin:17px;
-    font-family:sans-serif; font-size:medium;     
+    font-family: 'Roboto', sans-serif, medium;    
 }
 
 /*Form*/
@@ -228,8 +238,9 @@ body
     background-color:#575757;
     width:auto;
 }
-p
+p, h1, h2, h3
 {
+    font-family: 'Roboto', sans-serif, medium;
     font-size:medium;
 }
 /*Using a set width so it looks the same on all monitors*/
@@ -361,7 +372,7 @@ header
 article
 {
     margin:17px;
-    font-family:sans-serif; font-size:medium;     
+    font-family: 'Roboto', sans-serif, medium;    
 }
 .warning
 {
@@ -568,4 +579,7 @@ footer:before
     visibility: visible;
     float:left;
 }
+}
+.news p {
+    font-family: 'Roboto', sans-serif, medium;
 }
