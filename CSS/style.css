@@ -38,11 +38,16 @@ header img
     overflow:auto;
 }
 /*Menu*/
+.blogglink
+{
+    visibility:hidden;
+}
 nav {
     height: 40px;      
     font-size: medium;
     font-family: 'Roboto', sans-serif, medium;
-    font-weight: bold;       
+    font-weight: bold;      
+    height: auto;
 }
 nav ul {
     padding: 0;
@@ -67,9 +72,7 @@ nav a {
     width: 99%;
     text-indent: 25px;
 }
-nav { 
-    height: auto;
-}
+
 nav ul {
     width: 99%;
     display: block;
@@ -302,7 +305,22 @@ header img
     clear:both;
     margin:auto;
 }
+/*Bloggmenu*/
+.blogglink a
+{
+    display:block;
+    background-color:#000;
+    color:#fff;
+    width:33%;
+    clear:both;    
+}
 
+.blogglink a:hover
+{
+    background-color: #000; 
+    color: #fff;   
+}
+/*Bloggmenu end*/
 
 /*Menu*/
 nav
