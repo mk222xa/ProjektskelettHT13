@@ -38,10 +38,7 @@ header img
     overflow:auto;
 }
 /*Menu*/
-.blogglink
-{
-    visibility:hidden;
-}
+
 nav {
     height: 40px;      
     font-size: medium;
@@ -240,12 +237,12 @@ button.submit {
 
 /*CSS for bigger screens start here*/
 @media screen and (min-width: 481px) {
-
-body 
-{
-    background-color:#575757;
-    width:auto;
-}
+    
+    body 
+    {
+        background-color:#575757;
+        width:auto;
+    }
 p, h1, h2, h3
 {
     font-family: 'Roboto', sans-serif, medium;
@@ -305,23 +302,6 @@ header img
     clear:both;
     margin:auto;
 }
-/*Bloggmenu*/
-.blogglink a
-{
-    display:block;
-    background-color:#000;
-    color:#fff;
-    width:33%;
-    clear:both;    
-}
-
-.blogglink a:hover
-{
-    background-color: #000; 
-    color: #fff;   
-}
-/*Bloggmenu end*/
-
 /*Menu*/
 nav
 {
