@@ -237,11 +237,6 @@ button.submit {
 
 /*CSS for bigger screens start here*/
 @media screen and (min-width: 481px) {
-    
-    #pull
-    {
-        visibility:hidden;
-    }
 
 body 
 {
