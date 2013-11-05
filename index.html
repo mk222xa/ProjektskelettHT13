@@ -8,9 +8,19 @@
         <title>CMK Solutions</title>
     </head>
     <body>
+        <!--Javascript for Facebook-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <!--Javascript for Facebook ends-->
         <div class="container">
-            <header>
-                <img src="css/pics/logo.png" alt="CMK-Solutions">
+            <header>                
+                <img src="css/pics/logo.png" alt="CMK-Solutions">                
                 <h1 id="headline">CMK Solutions</h1>
             </header>
             <nav class="navbar">
@@ -35,7 +45,7 @@
                     <p class="newstext">Den nya loggan är äntligen klar. Riktigt nöjd med resultatet!</p>            
                 </article>
             </section> 
-            <footer></footer>
+            <footer><div class="fb-like" data-href="https://www.facebook.com/CMK.Solutions" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="true" data-send="true"></div></footer>
         </div>  <!--Close .container-->  
     </body>
 </html>

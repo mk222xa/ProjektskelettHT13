@@ -4,18 +4,18 @@
     {
         font-family: 'Roboto', sans-serif, medium;
     }
-    .container  
-    {    
-        width:100%;
-        min-height:1000px;
-        background-color:#fff;    
-        display:block;
-        margin:auto;
-        border:2px #000 solid;    
-        clear:both;    
-        padding-bottom:60px; 
-        position:relative;
-    }
+.container  
+{    
+    width:100%;
+    min-height:1000px;
+    background-color:#fff;    
+    display:block;
+    margin:auto;
+    border:2px #000 solid;    
+    clear:both;    
+    padding-bottom:60px; 
+    position:relative;
+}
 .container h1,h2,h3
 {
     text-align:center;
@@ -118,6 +118,16 @@ nav li a {
     padding:4px;
     border:1px solid #000;
 }
+.fb-like
+{
+    display:block;
+    float:right; 
+    position:relative;
+    bottom:0;
+    margin: 40px 0px 0px 0px;
+    width:200px;
+    overflow:hidden;
+}
 footer
 {
     bottom:0;
@@ -129,7 +139,7 @@ footer
 footer:before 
 {    
     margin:70px 10px 10px 10px;
-    content: "© CMK-Solutions 2013";
+    content: "© CMK Solutions 2013";
     visibility: visible;
     float:left;
 }
@@ -227,11 +237,11 @@ button.submit {
 
 /*CSS for bigger screens start here*/
 @media screen and (min-width: 481px) {
-
-#pull
-{
-    visibility:hidden;
-}
+    
+    #pull
+    {
+        visibility:hidden;
+    }
 
 body 
 {
@@ -563,6 +573,14 @@ button.submit:active {
     padding:4px;
     border:1px solid #000;
 }
+.fb-like
+{
+    display:block;
+    float:right;
+    position:relative;
+    margin:40px 0px 0px 0px;    
+}
+
 footer
 {
     bottom:0;
@@ -575,11 +593,17 @@ footer
 footer:before 
 {    
     margin:70px 10px 10px 10px;
-    content: "© CMK-Solutions 2013";
+    content: "© CMK Solutions 2013";
     visibility: visible;
     float:left;
 }
 }
 .news p {
     font-family: 'Roboto', sans-serif, medium;
+}
+
+
+.services {
+    float:left;
+    margin:10px;    
 }
